@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <title>Aventura Billie Ellish</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/billie ellish.png" >
+            <p>Billie Eilish é transportada para o reino de Arcania, um mundo medieval onde a magia é poderosa e criaturas místicas vagam livremente. Ela deve encontrar o Cetro da Serenidade, escondido em uma torre nas Montanhas Nebulosas, para restaurar a paz no reino.</p>
+            <button class="btn-proximo" data-proximo="1">Siga pela Floresta Sombria.</button>
+            <button class="btn-proximo" data-proximo="2">Vá diretamente às Montanhas Nebulosas.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A densa vegetação da floresta esconde perigos e segredos.</p>
+            <button class="btn-proximo" data-proximo="4">Tente seguir uma trilha de pegadas misteriosas.</button>
+            <button class="btn-proximo" data-proximo="6"> Ignore as pegadas e explore uma caverna próxima.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>As Montanhas Negras são traiçoeiras e frias, com cavernas escuras e criaturas hostis.</p>
+            <button class="btn-proximo" data-proximo="5"> Suba por uma trilha íngreme até uma torre antiga.</button>
+            <button class="btn-proximo" data-proximo="7">Entre em uma caverna iluminada por cristais.</button>
+        </div>
+        <div class="passo" id="passo-4">
+        
+            <p>As pegadas levam Billie a uma clareira onde um alquimista oferece ajuda.</p>
+            <button class="btn-proximo" data-proximo="8">Aceite a ajuda do alquimista.</button>
+            <button class="btn-proximo" data-proximo="9">Recuse a ajuda e continue sozinho.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A torre é habitada por fantasmas que oferecem visões do futuro, mas a um custo.
+            </p>
+            <button class="btn-proximo" data-proximo="8"> Aceite as visões dos fantasmas.</button>
+            <button class="btn-proximo" data-proximo="9">Recuse as visões e continue explorando.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Billie entra na caverna e encontra um lago subterrâneo guardado por uma serpente gigante.            </p>
+            <button class="btn-proximo" data-proximo="10">Tente negociar a passagem com a serpente.</button>
+            <button class="btn-proximo" data-proximo="11">-  Lute contra a serpente.    </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> Billie entra na caverna e encontra um dragão adormecido.</p>
+            <button class="btn-proximo" data-proximo="10">- Tente roubar um cristal do dragão.            </button>
+            <button class="btn-proximo" data-proximo="11">Acorde o dragão e peça ajuda.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Com a ajuda de poderes sobrenaturais, você encontra a entrada secreta para o templo nas Montanhas Negras.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você continua sua jornada, encontrando a entrada para o templo através de sua própria habilidade e determinação.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Sua esperteza permite que você continue em sua jornada, alcançando o templo escondido.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/ellish 2.png">
+            <p>Após uma batalha feroz, você derrota seu oponente e prossegue, encontrando a entrada para o templo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+
+            <pBillie Eilish descobre que a chave para restaurar a paz no reino está em um amuleto mágico que ela encontra em uma caverna secreta. Com o amuleto, ela consegue ativar o Cetro da Serenidade e salvar Arcania.</p>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/1062bd40-6687-417c-be1f-370adf75e689/w5NYW5Lvgl.json" background="transparent" speed="1" style="width: 80px; height: 80px;" loop autoplay></dotlottie-player>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
